@@ -12,7 +12,7 @@ Imagine creating an API for a pet store. We aim to authorize and authenticate us
 **API endpoint:** A single endpoint listing all available pets in the store.\
 **User:** Access the API endpoint using a token for authorization.\
 **User:** Able to sign up and sign in to obtain the access token.\
-**Authorizer:** Responsible for authorizing and authenticating user functionality.\
+**Authorizer:** Responsible for authorizing and authenticating user functionality.
 
 We will use AWS service. We will choose a region and create API gateway for user to pull the list of pets.\
 A serverless Lambda function will act as an API.\
