@@ -5,18 +5,18 @@
 **Task:**
 Imagine creating an API for a pet store. We aim to authorize and authenticate users before granting them access to view the list of available pets.
 
-**Solution:**
+**Solution:**\
 **Functional Requirements:**
 
-**API:** Pet store API.
-**API endpoint:** A single endpoint listing all available pets in the store.
-**User:** Access the API endpoint using a token for authorization.
-**User:** Able to sign up and sign in to obtain the access token.
-**Authorizer:** Responsible for authorizing and authenticating user functionality.
+**API:** Pet store API.\
+**API endpoint:** A single endpoint listing all available pets in the store.\
+**User:** Access the API endpoint using a token for authorization.\
+**User:** Able to sign up and sign in to obtain the access token.\
+**Authorizer:** Responsible for authorizing and authenticating user functionality.\
 
-We will use AWS service. We will choose a region and create API gateway for user to pull the list of pets.
-A serverless Lambda function will act as an API.
-An API gateway will be in the front for the user to interact with the API (API = Lambda function)
+We will use AWS service. We will choose a region and create API gateway for user to pull the list of pets.\
+A serverless Lambda function will act as an API.\
+An API gateway will be in the front for the user to interact with the API (API = Lambda function.)\
 Cognito will work as an authorizer with "Cognito Hosted UI" as interface for sign in and sign up.
 
 ![Pets Store Diagram](images/pets-store-diagram.png)
